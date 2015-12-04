@@ -1,6 +1,6 @@
 generator-angular-wakanda
 =========================
-[![ angular-wakanda ](http://www.wakanda.org/sites/default/files/medias/128.png)](http://www.wakanda.org/angular-wakanda/)
+[![ angular-wakanda ](https://wakanda.github.io/angular-wakanda/images/angular-wakanda.png)](https://wakanda.github.io/angular-wakanda/)
 
 [![MIT Licensed](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](#license)
 
@@ -8,13 +8,7 @@ generator-angular-wakanda
 
 This generator lets you scaffold your AngularJS/Wakanda website.
 
-###EXPERIMENTAL
-
-THIS IS AN ALPHA RELEASE, AND ACTIVE DEVELOPMENT IS ONGOING. THE GENERATOR/CONNECTOR ANGULAR-WAKANDA ARE UNSTABLE AND NOT FINAL AND SHOULD NOT BE USED IN PRODUCTION (WHATEVER THAT MEANS FOR YOU).
-
-THE GENERATOR/CONNECTOR ANGULAR-WAKANDA ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-##Prerequisite
+## Prerequisite
 
 Of course you need node, but you will also need the following modules to get the generator (and its grunt scripts) running :
 
@@ -25,7 +19,7 @@ Of course you need node, but you will also need the following modules to get the
 
 If you get into some troubles for the installation - see [notes](#notes) part.
 
-##Usage
+## Usage
 
 Install `generator-angular-wakanda` :
 
@@ -50,7 +44,7 @@ You will be asked a couple of questions like :
 * The name of the folder you want to put all the usual yo angular scaffold
 * Whether you want to use Sass/Compass or not
 * Whether you want to use Bootstrap or not
-* Which angular modules you whish to include
+* Which angular modules you wish to include
 
 Example of output directory tree :
 
@@ -77,16 +71,16 @@ In result, you will have two levels of Gruntfile.js :
 * The one at the root where you can call tasks like `grunt wakCopy`
 * The one in your angularApp folder which contains exactly the same kind of tasks as you would expect from a regular Gruntfile.js made with `yo angular` like `grunt serve`, `grunt build` …
 
-##Angular subgenerators available
+## Angular subgenerators available
 
 In your `angularApp` folder, you can run any of the [official yeoman generator-angular subgenerators](https://github.com/yeoman/generator-angular/blob/master/readme.md#generators).
 
 ## Resources
 
 * [angular-wakanda connector](https://github.com/Wakanda/angular-wakanda)
-* [Home page](http://www.wakanda.org/angular-wakanda/)
+* [Home page](https://wakanda.github.io/angular-wakanda/)
 
-##Contributors
+## Contributors
 
 * If you don't have yo : `npm install -g yo`
 * Clone the repo
@@ -94,12 +88,12 @@ In your `angularApp` folder, you can run any of the [official yeoman generator-a
 * If you already work with the genrator-angular-wakanda, you'll need to uninstall it : `npm uninstall generator-angular-wakanda -g`
 * In the repo directory : `npm link` (will let you use your local version of the generator)
 
-##Notes
+## Notes
 
 * If you have troubles installing modules, sometimes a `npm cache clean` can do the trick
 * If you are behind a proxy that doesn't allow git:// urls (problems for the bower install), take a look at [this link](https://coderwall.com/p/sitezg)
 
-##License
+## License
 
 The MIT License (MIT)
 

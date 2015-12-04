@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "dependencies": {
     "angular": "^<%= ngVer %>",
-    "angular-wakanda": "^0.4.0"<% if (bootstrap) { %>,<% if (!compassBootstrap) { %>
+    "angular-wakanda": "^1.0.0"<% if (bootstrap) { %>,<% if (!compassBootstrap) { %>
     "bootstrap": "^3.2.0"<% } else { %>
     "bootstrap-sass-official": "^3.2.0"<% } } %><% if (animateModule) { %>,
     "angular-animate": "^<%= ngVer %>"<% } %><% if (ariaModule) { %>,
-    "angular-aria": "^<%= ngVer %>"<% } %><% if (cookiesModule) { %>, 
+    "angular-aria": "^<%= ngVer %>"<% } %><% if (cookiesModule) { %>,
     "angular-cookies": "^<%= ngVer %>"<% } %><% if (messagesModule) { %>,
     "angular-messages": "^<%= ngVer %>"<% } %><% if (resourceModule) { %>,
     "angular-resource": "^<%= ngVer %>"<% } %><% if (routeModule) { %>,
